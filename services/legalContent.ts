@@ -7,10 +7,14 @@ import { gunzipSync, strFromU8 } from "fflate";
 
 import manifest from "@/data/legal-v3/packages/manifest.json";
 
-const INSTALLED_PACKAGES_KEY = "lawquest.installedLegalPackages.v1";
-const PENDING_PACKAGE_CLEANUP_KEY = "lawquest.pendingPackageCleanup.v1";
-const PACKAGE_MANIFEST_CACHE_KEY = "lawquest.packageManifestCache.v1";
+const DEMO_MODE = process.env.EXPO_PUBLIC_DEMO_MODE === "true";
+const CONTENT_NAMESPACE = DEMO_MODE ? ".demo" : "";
+const FALLBACK_MANIFEST = DEMO_MODE ? { schemaVersion: 1, codes: [] } : manifest;
+const INSTALLED_PACKAGES_KEY = "lawquest.installedLegalPackages.v1" + CONTENT_NAMESPACE;
+const PENDING_PACKAGE_CLEANUP_KEY = "lawquest.pendingPackageCleanup.v1" + CONTENT_NAMESPACE;
+const PACKAGE_MANIFEST_CACHE_KEY = "lawquest.packageManifestCache.v1" + CONTENT_NAMESPACE;
 const REMOTE_MANIFEST_URL =
+  process.env.EXPO_PUBLIC_LEGAL_MANIFEST_URL ||
   "https://lawquest-content-api.contacticev1.workers.dev/manifest";
 
 export type PackageLanguage = "th" | "en" | string;
@@ -127,7 +131,7 @@ type PendingPackageCleanupRecord = {
   versionId: string;
 };
 
-let activePackageManifest = manifest as unknown as PackageManifest;
+let activePackageManifest = FALLBACK_MANIFEST as unknown as PackageManifest;
 const MAX_READER_PACKAGE_CACHE_ENTRIES = 3;
 let packageMutationQueue: Promise<void> = Promise.resolve();
 const readerPackageCache = new Map<string, LegalPackageDocument>();
@@ -320,7 +324,7 @@ export async function loadCachedPackageManifest(): Promise<PackageManifest> {
   const raw = await AsyncStorage.getItem(PACKAGE_MANIFEST_CACHE_KEY);
 
   if (!raw) {
-    activePackageManifest = manifest as unknown as PackageManifest;
+    activePackageManifest = FALLBACK_MANIFEST as unknown as PackageManifest;
     return activePackageManifest;
   }
 
@@ -329,7 +333,7 @@ export async function loadCachedPackageManifest(): Promise<PackageManifest> {
     activePackageManifest = validatePackageManifest(cache.manifest);
     return activePackageManifest;
   } catch {
-    activePackageManifest = manifest as unknown as PackageManifest;
+    activePackageManifest = FALLBACK_MANIFEST as unknown as PackageManifest;
     return activePackageManifest;
   }
 }

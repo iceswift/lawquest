@@ -324,7 +324,7 @@ const en = {
       narcotics: "Narcotics Code",
       military: "Military Criminal Code",
     },
-    archivalPackages: "OFFICIAL LEGAL PACKAGES",
+    archivalPackages: "AVAILABLE PACKAGES",
     archivedOffline: "ARCHIVED (OFFLINE)",
     downloading: "DOWNLOADING...",
     installed: "INSTALLED",

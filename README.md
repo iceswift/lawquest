@@ -19,6 +19,10 @@ Screenshots below are captured from the running Android app, not design mockups.
 
 [Watch the short Android navigation preview](docs/images/walkthrough.mp4).
 
+[Demo download and reading](docs/images/demo-download-read.mp4) · [Demo highlighting](docs/images/demo-highlight-tts.mp4) · [Native test results and limitations](docs/native-demo-validation.md). Screen recordings are silent.
+
+[TTS controls in action](docs/images/demo-speech.mp4) · [Installed demo section in airplane mode](docs/images/demo-offline.png).
+
 <table>
   <tr><th>Home</th><th>Books</th><th>Reader</th></tr>
   <tr>
@@ -95,9 +99,12 @@ Open with an Expo Go version compatible with SDK 54. For Android, start an emula
 
 Guest reading and local study do not require your own Supabase account. Optional sign-in setup is documented in [development.md](docs/development.md). The public content service requires internet for catalog refresh and first download; installed content is intended for offline use.
 
+To try downloading and reading without the hosted content service, start an Android Emulator and run `npm run demo -- --android`. This serves fictional TH/EN sample rules from your laptop and uses the app's normal gzip/checksum installation flow. See [demo setup](docs/development.md#self-contained-android-demo).
+
 ```sh
 npx tsc --noEmit
 npm run test:services
+npm run test:demo
 ```
 
 ## Project Map
@@ -121,4 +128,4 @@ Thai source material was collected from the Office of the Council of State. Engl
 
 This repository documents a project built with AI assistance for implementation, translation drafts, and iteration. The product direction and development decisions are maintained by the author. See [development case study](docs/case-study.md) for decisions and remaining work.
 
-No open-source license has been selected yet. Public visibility does not grant a license to redistribute the code, branding, fonts, or legal datasets; their permissions must be assessed separately.
+Original code, documentation, and branding remain reserved under [LICENSE](LICENSE). Third-party font notices and their separate licenses are documented in [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md). Legal datasets and translations are not licensed by the code notice.

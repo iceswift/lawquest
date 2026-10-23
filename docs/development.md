@@ -31,13 +31,36 @@ The repository contains `data/legal-v3/packages/manifest.json` as a fallback cat
 
 Content build and release scripts are maintainer tools. Rebuilding requires the separately maintained source datasets, including metadata still referenced from legal-v2 by the preparation script. They are not prerequisites for running the app. Release tooling currently contains Windows-specific npm commands and should be run in the maintainer's Windows environment. Do not run release commands merely to try the app.
 
-The default content endpoint is in `services/legalContent.ts`. The hosted service is a development dependency without an availability guarantee. No self-contained demo dataset is bundled yet.
+The default content endpoint is in `services/legalContent.ts`. Override it with `EXPO_PUBLIC_LEGAL_MANIFEST_URL` for a development content server.
+
+## Self-Contained Android Demo
+
+With dependencies installed, an Android Emulator running, and `ANDROID_HOME` set correctly:
+
+```sh
+npm run demo -- --android
+```
+
+This starts a local content server on port 8788 and Expo on port 8085. It supplies fictional library rules in TH/EN, marked as demo content. It does not contact Cloudflare or require Supabase credentials. Open Books, download the demo package, open a section, and try notes, highlighting, and TTS.
+
+Android Emulator uses `10.0.2.2` to reach the laptop. For a physical phone, use your laptop's LAN address:
+
+```sh
+npm run demo -- --host 0.0.0.0 --public-url http://YOUR_LAN_IP:8788
+```
+
+Allow local network access and connect the phone to the same network. For content-server-only operation use `npm run demo:content`; the corresponding app must use the matching manifest URL.
+
+The demo has a separate manifest cache and installed-package registry. Existing notes and study settings are shared, so it is not a separate user account or storage sandbox. The first download still uses HTTP locally and validates the same gzip size/SHA-256 contract; it does not simulate offline installation. After installation, section text reads from device storage. Native voices may need an OS voice download. Stop with Ctrl+C. Restart regular `npm start` to return to the hosted catalog; do not persist `EXPO_PUBLIC_DEMO_MODE` in your regular .env.
+
+Override ports with `--content-port 8789 --expo-port 8086`. If changing the content port and using a custom public URL, update that URL too. Browser previews still have native-file limitations; this demo's end-to-end target is Android/iOS.
 
 ## Checks
 
 ```sh
 npx tsc --noEmit
 npm run test:services
+npm run test:demo
 ```
 
 Service tests exercise storage migrations, saved items, notes, highlights, registry repair, reader sidecars, and search behavior using mocked device storage. They do not prove native interaction, TTS, selection behavior, or memory stability. Run those checks on a device.

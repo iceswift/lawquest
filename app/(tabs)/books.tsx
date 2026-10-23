@@ -935,6 +935,9 @@ export default function BooksScreen() {
           backdropBorderColor={colors.goldSubtle}
           cardBg={isDark ? "#1E2330" : "#FFFFFF"}
           description={
+            process.env.EXPO_PUBLIC_DEMO_MODE === "true"
+              ? "FICTIONAL DEMO CONTENT FOR TESTING. THESE LIBRARY RULES ARE NOT THAI LAW."
+              :
             t("books.modal.description") ||
             "PROVISIONING THIS LEGAL ASSET FOR OFFLINE ACCESS. THE THAI TEXT REMAINS THE ULTIMATE AUTHORITY."
           }

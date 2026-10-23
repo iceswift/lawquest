@@ -327,7 +327,8 @@ export default function LegalSectionScreen() {
     return getSourceBadge(legalPackage, selectedLanguage);
   }, [legalPackage, selectedLanguage]);
   const showTranslationNotice =
-    selectedLanguage === "en" && legalPackage?.version.authoritative !== true;
+    legalPackage?.version.sourceType === "synthetic_demo" ||
+    (selectedLanguage === "en" && legalPackage?.version.authoritative !== true);
 
   const parsedSection = useMemo(() => {
     return section
@@ -555,8 +556,9 @@ export default function LegalSectionScreen() {
                   color="#D84315"
                 />
                 <Text style={[styles.noticeText, { color: textColor, fontFamily: typography.fonts.primary }]}>
-                  English text is an unofficial reference draft and still needs
-                  legal review. Thai remains the authoritative source.
+                  {legalPackage?.version.sourceType === "synthetic_demo"
+                    ? legalPackage.version.disclaimer
+                    : "English text is an unofficial reference draft and still needs legal review. Thai remains the authoritative source."}
                 </Text>
               </View>
             ) : null}

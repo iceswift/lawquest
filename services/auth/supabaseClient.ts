@@ -16,8 +16,8 @@ if (!supabaseUrl || !supabaseAnonKey) {
 }
 
 export const supabase = createClient(
-  supabaseUrl ?? "https://example.supabase.co",
-  supabaseAnonKey ?? "missing-anon-key",
+  supabaseUrl || "https://example.supabase.co",
+  supabaseAnonKey || "missing-anon-key",
   {
     auth: {
       storage: isWebServer ? undefined : AsyncStorage,

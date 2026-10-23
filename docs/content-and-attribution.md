@@ -10,9 +10,9 @@ The full raw texts and generated archives are distributed separately and are exc
 
 ## Code and Assets
 
-No code license is currently selected. Dependencies retain their respective licenses. Branding images are supplied by the project owner; this repository does not grant separate reuse rights to the brand.
+Original project material is reserved under [LICENSE](../LICENSE); no open-source reuse license is granted. Dependencies retain their respective licenses. Branding images are supplied by the project owner; this repository does not grant separate reuse rights to the brand.
 
-Active UI fonts are loaded through the Inter and Cormorant Garamond Expo Google Fonts packages. SpaceMono is included from the original Expo scaffold. Font redistribution permissions and required notices should be checked before a packaged public release. Unused local font experiments are excluded from publication.
+Active UI fonts are loaded through the Inter and Cormorant Garamond Expo Google Fonts packages. SpaceMono is included from the original Expo scaffold. Their SIL OFL notices are preserved under `docs/licenses`; see [THIRD_PARTY_NOTICES](../THIRD_PARTY_NOTICES.md) for sources and scope. Unused local font experiments are excluded from publication. This records verified notices, not a blanket clearance of legal datasets, branding, or every dependency in a future binary release.
 
 ## AI Assistance
 

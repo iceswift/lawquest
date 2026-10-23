@@ -21,8 +21,8 @@ This is a development portfolio, not a release commitment. Implemented features 
 - Improve accessibility, typography, safe areas, and empty/error states.
 - Add v3 content validation to release tooling; retain immutable releases and upload manifest last.
 - Migrate saved/annotation references safely across source versions.
-- Expand the native navigation preview into a walkthrough of downloads, highlights, and TTS.
-- Audit source/font/translation permissions and select an explicit code license.
+- Broaden the recorded demo download/read/highlight and TTS smoke checks to physical devices; see native-demo-validation.md.
+- Complete branding/dataset permission provenance and binary dependency-license review; font notices and the reserved-rights code policy are now recorded.
 
 ## Later
 
@@ -30,4 +30,4 @@ This is a development portfolio, not a release commitment. Implemented features 
 - Guest-to-member migration and account recovery.
 - Subscription entitlements and billing integration.
 - Learning games, flashcards, and structured legal-logic exercises.
-- Maintainer-friendly content release workflow and a self-contained demo dataset.
+- Maintainer-friendly content release workflow; the local fictional dataset demo is available through `npm run demo`.

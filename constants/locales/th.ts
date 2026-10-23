@@ -323,7 +323,7 @@ const th = {
       narcotics: "ประมวลกฎหมายยาเสพติด",
       military: "ประมวลกฎหมายอาญาทหาร",
     },
-    archivalPackages: "ชุดกฎหมายอย่างเป็นทางการ",
+    archivalPackages: "แพ็กเกจที่พร้อมใช้งาน",
     archivedOffline: "จัดเก็บแล้ว (OFFLINE)",
     downloading: "กำลังดาวน์โหลด...",
     installed: "ติดตั้งแล้ว",
