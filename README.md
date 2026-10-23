@@ -17,6 +17,8 @@
 
 Screenshots below are captured from the running Android app, not design mockups.
 
+[Watch the short Android navigation preview](docs/images/walkthrough.mp4).
+
 <table>
   <tr><th>Home</th><th>Books</th><th>Reader</th></tr>
   <tr>

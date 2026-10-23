@@ -21,7 +21,7 @@ This is a development portfolio, not a release commitment. Implemented features 
 - Improve accessibility, typography, safe areas, and empty/error states.
 - Add v3 content validation to release tooling; retain immutable releases and upload manifest last.
 - Migrate saved/annotation references safely across source versions.
-- Record a short native walkthrough and add more screenshots.
+- Expand the native navigation preview into a walkthrough of downloads, highlights, and TTS.
 - Audit source/font/translation permissions and select an explicit code license.
 
 ## Later
