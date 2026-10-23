@@ -1,0 +1,10 @@
+name = "lawquest-content-api"
+main = "src/index.ts"
+compatibility_date = "2026-04-29"
+
+[[r2_buckets]]
+binding = "LEGAL_PACKAGES"
+bucket_name = "lawquest-legal-packages"
+
+[vars]
+CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=86400"

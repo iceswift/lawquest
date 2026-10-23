@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 3,
+  "packageId": "synthetic-search-fixture",
+  "code": {
+    "codeId": "thai-criminal-code",
+    "title": "Synthetic test data"
+  },
+  "language": "en",
+  "version": {
+    "versionId": "test-only",
+    "basedOnVersionId": null,
+    "reviewStatus": null,
+    "disclaimer": "Synthetic test data, not legal text."
+  },
+  "sectionCount": 1,
+  "sections": [
+    {
+      "sectionId": "thai-criminal-code-section-54",
+      "sectionNo": "54",
+      "text": "Synthetic search fixture containing the word appeal. Not legal text."
+    }
+  ]
+}

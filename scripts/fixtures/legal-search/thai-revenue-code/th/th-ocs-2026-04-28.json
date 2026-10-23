@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 3,
+  "packageId": "synthetic-search-fixture",
+  "code": {
+    "codeId": "thai-revenue-code",
+    "title": "Synthetic test data"
+  },
+  "language": "th",
+  "version": {
+    "versionId": "test-only",
+    "basedOnVersionId": null,
+    "reviewStatus": null,
+    "disclaimer": "Synthetic test data, not legal text."
+  },
+  "sectionCount": 2,
+  "sections": [
+    {
+      "sectionId": "thai-revenue-code-section-1",
+      "sectionNo": "1",
+      "text": "ตัวอย่างทดสอบ ภาษี ไม่ใช่บทบัญญัติกฎหมาย"
+    },
+    {
+      "sectionId": "thai-revenue-code-section-2",
+      "sectionNo": "2",
+      "text": "ตัวอย่างทดสอบ ภาษี ไม่ใช่บทบัญญัติกฎหมาย"
+    }
+  ]
+}

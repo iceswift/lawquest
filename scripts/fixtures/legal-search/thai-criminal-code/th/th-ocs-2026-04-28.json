@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 3,
+  "packageId": "synthetic-search-fixture",
+  "code": {
+    "codeId": "thai-criminal-code",
+    "title": "Synthetic test data"
+  },
+  "language": "th",
+  "version": {
+    "versionId": "test-only",
+    "basedOnVersionId": null,
+    "reviewStatus": null,
+    "disclaimer": "Synthetic test data, not legal text."
+  },
+  "sectionCount": 1,
+  "sections": [
+    {
+      "sectionId": "thai-criminal-code-section-288",
+      "sectionNo": "288",
+      "text": "ตัวอย่างข้อมูลทดสอบการค้นหาคำว่า ฆ่า ไม่ใช่บทบัญญัติกฎหมาย"
+    }
+  ]
+}

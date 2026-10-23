@@ -39,3 +39,35 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+.env
+.env.*
+!.env.example
+.dev.vars*
+.wrangler/
+.tmp/
+coverage/
+*.log
+
+# Local editing helpers and intermediate translation artifacts
+/new_modal.txt
+/target_modal*.txt
+/tmp_saved_modal.txt
+/replace*.js
+/replace*.py
+/scripts/run-batch*.js
+/scripts/batch*.json
+/scripts/batch*.txt
+/scripts/seed_en_cache.py
+
+# Content datasets are distributed independently of app source.
+/data/legal/
+/data/legal-v2/
+/data/legal-v3/*
+!/data/legal-v3/packages/
+/data/legal-v3/packages/*
+!/data/legal-v3/packages/manifest.json
+
+# Unused local font experiments (license provenance not recorded)
+/assets/fonts/Imperial-Test.ttf
+/assets/fonts/Cinzel-Bold.ttf
+/assets/fonts/Inter-*.otf

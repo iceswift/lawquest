@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 3,
+  "packageId": "synthetic-search-fixture",
+  "code": {
+    "codeId": "thai-civil-commercial-code",
+    "title": "Synthetic test data"
+  },
+  "language": "th",
+  "version": {
+    "versionId": "test-only",
+    "basedOnVersionId": null,
+    "reviewStatus": null,
+    "disclaimer": "Synthetic test data, not legal text."
+  },
+  "sectionCount": 1,
+  "sections": [
+    {
+      "sectionId": "thai-civil-commercial-code-section-149",
+      "sectionNo": "149",
+      "text": "ตัวอย่างทดสอบการค้นหาคำว่า นิติกรรม ไม่ใช่บทบัญญัติกฎหมาย"
+    }
+  ]
+}

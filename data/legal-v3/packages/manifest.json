@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T10:48:41.458Z",
+  "buildStartedAt": "2026-06-07T10:48:39.584Z",
+  "baseUrl": "https://lawquest-content-api.contacticev1.workers.dev",
+  "strategy": {
+    "download": "on_demand",
+    "cache": "local_offline_cache",
+    "updateCheck": "manifest_sha256_and_version",
+    "note": "Packages are immutable by versionId. Upload new versions instead of overwriting existing package objects."
+  },
+  "summary": {
+    "codeCount": 8,
+    "packageCount": 24,
+    "warningCount": 0
+  },
+  "codes": [
+    {
+      "codeId": "thai-civil-commercial-code",
+      "title": "ประมวลกฎหมายแพ่งและพาณิชย์",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-civil-commercial-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 1849,
+              "paragraphCount": 3380,
+              "chunkCount": 37,
+              "paths": {
+                "json": "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-10.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-11.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-12.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-13.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-14.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-15.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-16.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-17.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-18.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-19.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-20.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-21.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-22.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-23.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-24.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-25.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-26.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-27.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-28.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-29.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-30.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-31.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-32.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-33.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-34.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-35.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-36.json",
+                  "objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-37.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-commercial-code/en/en-ai-draft-2026-06-07.json.gz?sha=f3f2871f63599821",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 483528,
+                "uncompressedSizeBytes": 4498172,
+                "sha256": "f3f2871f6359982111aee5636d8464c75b674c1c728d6b3ec82b0b47a36c4e03",
+                "contentSha256": "743d93434783887c3d6de92833b14b99efea1c51d04fda7a4cd4de2eb0d2d687"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-civil-commercial-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 1849,
+              "paragraphCount": 3391,
+              "chunkCount": 37,
+              "paths": {
+                "json": "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-10.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-11.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-12.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-13.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-14.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-15.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-16.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-17.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-18.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-19.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-20.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-21.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-22.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-23.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-24.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-25.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-26.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-27.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-28.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-29.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-30.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-31.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-32.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-33.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-34.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-35.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-36.json",
+                  "objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.reader-chunks/chunk-37.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-commercial-code/th/th-ocs-2026-06-06.json.gz?sha=fab1fdfbd3147d55",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 574658,
+                "uncompressedSizeBytes": 6219890,
+                "sha256": "fab1fdfbd3147d5504583cbcdf542781534e4c90139e69e125e330217ebcda94",
+                "contentSha256": "0a5c35f3554f2da51650225391e61d9cc3470eb2f65e41bbe090d53834633703"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-civil-commercial-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 1849,
+              "paragraphCount": 3391,
+              "chunkCount": 37,
+              "paths": {
+                "json": "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-10.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-11.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-12.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-13.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-14.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-15.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-16.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-17.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-18.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-19.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-20.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-21.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-22.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-23.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-24.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-25.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-26.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-27.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-28.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-29.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-30.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-31.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-32.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-33.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-34.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-35.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-36.json",
+                  "objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-37.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-commercial-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=2d2e3eec5120a916",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 525491,
+                "uncompressedSizeBytes": 4251824,
+                "sha256": "2d2e3eec5120a9168f1231e624cd770bc6a63d4a05f17a67ad61f12261c936aa",
+                "contentSha256": "4296baad2f5d5d491894a72a2421a83efa3b574382365d4c18c4b87f24e8acf0"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-civil-procedure-code",
+      "title": "ประมวลกฎหมายวิธีพิจารณาความแพ่ง",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-civil-procedure-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 474,
+              "paragraphCount": 1316,
+              "chunkCount": 10,
+              "paths": {
+                "json": "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-10.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-procedure-code/en/en-ai-draft-2026-06-07.json.gz?sha=517ef5ac0df1daf7",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 223034,
+                "uncompressedSizeBytes": 1806744,
+                "sha256": "517ef5ac0df1daf7db018ae36a41a47962986c0590dab60df87d82ca35813302",
+                "contentSha256": "44f55ec59b3c77ebb54d9bda7a0dd184819f00c5bc8870e52bb3ba5a9aadbe92"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-civil-procedure-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 474,
+              "paragraphCount": 1462,
+              "chunkCount": 10,
+              "paths": {
+                "json": "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-10.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-procedure-code/th/th-ocs-2026-06-06.json.gz?sha=e1b69ef9b6234afa",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 293274,
+                "uncompressedSizeBytes": 2996535,
+                "sha256": "e1b69ef9b6234afabb0fbe85209c5a4ad4d9490d3ff2fde994cfb11197278241",
+                "contentSha256": "d7992ea386cba75ea878e76637df0f62d044559683837a9fdf744ade7b00a9cb"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-civil-procedure-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 474,
+              "paragraphCount": 1462,
+              "chunkCount": 10,
+              "paths": {
+                "json": "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-9.json",
+                  "objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-10.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-civil-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=a43081127cfed145",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 268935,
+                "uncompressedSizeBytes": 1750919,
+                "sha256": "a43081127cfed1458479115467c5875b794c0f6b7461f4b0dc96a590d9a4f183",
+                "contentSha256": "8b72373c4f45a13a8a7046f2d32814acfcf26f98b69614dc4e45669f9e801075"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-criminal-code",
+      "title": "ประมวลกฎหมายอาญา",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-criminal-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 448,
+              "paragraphCount": 915,
+              "chunkCount": 9,
+              "paths": {
+                "json": "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-9.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-code/en/en-ai-draft-2026-06-07.json.gz?sha=9be5aaea8fe57cc9",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 130702,
+                "uncompressedSizeBytes": 1191574,
+                "sha256": "9be5aaea8fe57cc94ff74e9bd90b3657531bd4cb664931f54be306c387019d59",
+                "contentSha256": "ec6374a5e6a105aca198a5380c29c684076a3d2d947048b49a90940cdfd994fc"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-criminal-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 448,
+              "paragraphCount": 937,
+              "chunkCount": 9,
+              "paths": {
+                "json": "objects/thai-criminal-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-criminal-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-7.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-8.json",
+                  "objects/thai-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-9.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-code/th/th-ocs-2026-06-06.json.gz?sha=4b2713d522b43d24",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 148236,
+                "uncompressedSizeBytes": 1667744,
+                "sha256": "4b2713d522b43d245ec4d33bfa191bb7c56e207922c37631aa58cea2238f7576",
+                "contentSha256": "3aa435a5caea4bba1fa68e37d0d2a3a3734907a84af446a6d83dc780a34bbbe7"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-criminal-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 448,
+              "paragraphCount": 937,
+              "chunkCount": 9,
+              "paths": {
+                "json": "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-7.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-8.json",
+                  "objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-9.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=d269f8c2b7b4a19f",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 144543,
+                "uncompressedSizeBytes": 1083466,
+                "sha256": "d269f8c2b7b4a19f7009cf8317c2881ca34b149860c99d34e6aec8ff6eb482c0",
+                "contentSha256": "053d702f7685758b95d88a5d7494a678512bb365ec8d0ed55bd2dbd2b6a2bf4c"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-criminal-procedure-code",
+      "title": "ประมวลกฎหมายวิธีพิจารณาความอาญา",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-criminal-procedure-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 325,
+              "paragraphCount": 851,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-procedure-code/en/en-ai-draft-2026-06-07.json.gz?sha=e0cfe20f80c2c590",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 143463,
+                "uncompressedSizeBytes": 1100357,
+                "sha256": "e0cfe20f80c2c5908b98206c9ae1e0a2c4b6d21469ac34ac09b6da8eb036dd3a",
+                "contentSha256": "04ea0f43306cb98743e6c20f99db875d592f45b75be1e94bedaa555a0373f3b4"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-criminal-procedure-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 325,
+              "paragraphCount": 934,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-procedure-code/th/th-ocs-2026-06-06.json.gz?sha=06b44f1e2bc3c5f2",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 165774,
+                "uncompressedSizeBytes": 1571008,
+                "sha256": "06b44f1e2bc3c5f27385d40b5fba9fac18c7a6ad258ca13449d10c01640fbb27",
+                "contentSha256": "c795f7601579d57fa35d27514fcde61277405dcf8f6639d0b02abf51d7079d16"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-criminal-procedure-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 325,
+              "paragraphCount": 934,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-criminal-procedure-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=d3f19dbe8e6d14e1",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 153129,
+                "uncompressedSizeBytes": 1007193,
+                "sha256": "d3f19dbe8e6d14e1260a2a48c72b38f0f5ef5f5ddf60c2ead5239a7da4a83fd3",
+                "contentSha256": "570b13c3817895aca2268ed2fc170385897bffa8d0d9f763b63c2f00fb03b80f"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-land-code",
+      "title": "ประมวลกฎหมายที่ดิน",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-land-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 140,
+              "paragraphCount": 257,
+              "chunkCount": 3,
+              "paths": {
+                "json": "objects/thai-land-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-land-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-land-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-land-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-land-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-land-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-land-code/en/en-ai-draft-2026-06-07.json.gz?sha=2a9474b1356f8530",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 50163,
+                "uncompressedSizeBytes": 348189,
+                "sha256": "2a9474b1356f853051c8e35befd1a773ee02e25fdc91ff0c6c3f1a39b1bfcaa2",
+                "contentSha256": "21cb04d07a841d022436d288bbb14f6e9fc789964857ffec11e18d8567858455"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-land-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 140,
+              "paragraphCount": 313,
+              "chunkCount": 3,
+              "paths": {
+                "json": "objects/thai-land-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-land-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-land-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-land-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-land-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-land-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-land-code/th/th-ocs-2026-06-06.json.gz?sha=b4b280ccb4e0a87e",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 56452,
+                "uncompressedSizeBytes": 531353,
+                "sha256": "b4b280ccb4e0a87e1aaa00a7479d912cb75f00fe46aea6c684e5ff7a4986fd5b",
+                "contentSha256": "c928f001a3b6273d7118614461fec12ebaa86a591eba6179b8bbe6cfbfd9980e"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-land-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 140,
+              "paragraphCount": 313,
+              "chunkCount": 3,
+              "paths": {
+                "json": "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-land-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=eea94c57cf47ac27",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 53483,
+                "uncompressedSizeBytes": 315423,
+                "sha256": "eea94c57cf47ac27c4ee61e493e6420ffca4e911356f0d19f40e3e6dde953625",
+                "contentSha256": "1ec2a57636b174ab8a3e796c586c91913f63b6f917bcc7860b73066b869645fb"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-military-criminal-code",
+      "title": "ประมวลกฎหมายอาญาทหาร",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-military-criminal-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 53,
+              "paragraphCount": 63,
+              "chunkCount": 2,
+              "paths": {
+                "json": "objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-military-criminal-code/en/en-ai-draft-2026-06-07.json.gz?sha=8b6529d625ca5cf9",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 15735,
+                "uncompressedSizeBytes": 122111,
+                "sha256": "8b6529d625ca5cf98a67ed6d36300cb71e9edbb2f0ee22f52da68598ceaa1df9",
+                "contentSha256": "42a4ce8a28024c011f520e075f135f3faf4283581c8b438c0316f91061d7437c"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-military-criminal-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 53,
+              "paragraphCount": 155,
+              "chunkCount": 2,
+              "paths": {
+                "json": "objects/thai-military-criminal-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-military-criminal-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-military-criminal-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-military-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-military-criminal-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-military-criminal-code/th/th-ocs-2026-06-06.json.gz?sha=fed0ca99ed600964",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 21939,
+                "uncompressedSizeBytes": 238148,
+                "sha256": "fed0ca99ed600964e775de378c6e42d46d3e3f37178d3246454edebe9e5a8ea1",
+                "contentSha256": "21abff02d16a6a88dc68c9c9dbafa5e1f84fcde08a1213b8f5a20de414a4b457"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-military-criminal-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 53,
+              "paragraphCount": 155,
+              "chunkCount": 2,
+              "paths": {
+                "json": "objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-military-criminal-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=04abf278fbfa8a3e",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 20678,
+                "uncompressedSizeBytes": 145525,
+                "sha256": "04abf278fbfa8a3e7c105041e3b6ed3ad6b0ae8537b81f72fb473fa55a807d1c",
+                "contentSha256": "41087ea7d6a1190dc9d95d61fb5d7271594f10d75fbf6c0264e61cc069b20c25"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-narcotics-code",
+      "title": "ประมวลกฎหมายยาเสพติด",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-narcotics-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 186,
+              "paragraphCount": 423,
+              "chunkCount": 4,
+              "paths": {
+                "json": "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-narcotics-code/en/en-ai-draft-2026-06-07.json.gz?sha=cb83586a2a53999e",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 65459,
+                "uncompressedSizeBytes": 578212,
+                "sha256": "cb83586a2a53999e124d6668c69e1a3c9f6c324bb30c5b00f73c2c964c0e4955",
+                "contentSha256": "cb41a8c3c500de431b488f2deb44fd355af40db860941a65f918c5421c3cc337"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-narcotics-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 186,
+              "paragraphCount": 581,
+              "chunkCount": 4,
+              "paths": {
+                "json": "objects/thai-narcotics-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-narcotics-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-narcotics-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-narcotics-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-narcotics-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-narcotics-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-narcotics-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-narcotics-code/th/th-ocs-2026-06-06.json.gz?sha=24b29bcc6a19224c",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 96866,
+                "uncompressedSizeBytes": 1055705,
+                "sha256": "24b29bcc6a19224c4dd7354edfdd6b10747fe6d76566e50212727615645b6432",
+                "contentSha256": "ea5315c6aa6bb6575cb748615de222aa2d546295eb322798cf855738575084ff"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-narcotics-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 186,
+              "paragraphCount": 581,
+              "chunkCount": 4,
+              "paths": {
+                "json": "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-narcotics-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=a2f35d64f141d764",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 90808,
+                "uncompressedSizeBytes": 629480,
+                "sha256": "a2f35d64f141d764fd0f88cf9b8ef4ce36e88c2754e9020f9d62904a5661e07b",
+                "contentSha256": "8cb136f51028420831604af459cb7ce946b1d93a0df06432305dcf7fa08f708b"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    },
+    {
+      "codeId": "thai-revenue-code",
+      "title": "ประมวลรัษฎากร",
+      "defaultLanguage": "th",
+      "sourceDate": "2026-06-06",
+      "languages": {
+        "en": {
+          "currentVersionId": "en-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-revenue-code:en:en-ai-draft-2026-06-07",
+              "language": "en",
+              "versionId": "en-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_unofficial_style_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 332,
+              "paragraphCount": 1097,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-revenue-code/en/en-ai-draft-2026-06-07.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-revenue-code/en/en-ai-draft-2026-06-07.json.gz?sha=f2f9982d13e5187e",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 151040,
+                "uncompressedSizeBytes": 1178416,
+                "sha256": "f2f9982d13e5187e38ba9808a2baa663d514f5dc4e531ea23f0f23bc73496720",
+                "contentSha256": "d27f56b0a00eb51b613cc55c629bedc5250051aaf6fff69d614509430dbf2cc6"
+              }
+            }
+          ]
+        },
+        "th": {
+          "currentVersionId": "th-ocs-2026-06-06",
+          "versions": [
+            {
+              "packageId": "thai-revenue-code:th:th-ocs-2026-06-06",
+              "language": "th",
+              "versionId": "th-ocs-2026-06-06",
+              "basedOnVersionId": null,
+              "sourceType": "official_thai_text_structured_from_txt",
+              "authoritative": true,
+              "translationStatus": null,
+              "reviewStatus": null,
+              "sectionCount": 332,
+              "paragraphCount": 1363,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-revenue-code/th/th-ocs-2026-06-06.json",
+                "gzip": "objects/thai-revenue-code/th/th-ocs-2026-06-06.json.gz",
+                "readerIndex": "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-1.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-2.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-3.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-4.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-5.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-6.json",
+                  "objects/thai-revenue-code/th/th-ocs-2026-06-06.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-revenue-code/th/th-ocs-2026-06-06.json.gz?sha=a7167d26ce6cb159",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 210320,
+                "uncompressedSizeBytes": 2134955,
+                "sha256": "a7167d26ce6cb159ac5757b3025ac804f92f0bbd96d290c536f655301bcc37b3",
+                "contentSha256": "529bfe348f42c9fd7f3572eb3d835307a8ef84c94c90fccbbd8b50d9875717f4"
+              }
+            }
+          ]
+        },
+        "zh-CN": {
+          "currentVersionId": "zh-cn-ai-draft-2026-06-07",
+          "versions": [
+            {
+              "packageId": "thai-revenue-code:zh-CN:zh-cn-ai-draft-2026-06-07",
+              "language": "zh-CN",
+              "versionId": "zh-cn-ai-draft-2026-06-07",
+              "basedOnVersionId": "th-ocs-2026-06-06",
+              "sourceType": "ai_assisted_draft_with_reference",
+              "authoritative": false,
+              "translationStatus": "draft",
+              "reviewStatus": "needs_legal_review",
+              "sectionCount": 332,
+              "paragraphCount": 1363,
+              "chunkCount": 7,
+              "paths": {
+                "json": "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.json",
+                "gzip": "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz",
+                "readerIndex": "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-index.json",
+                "readerChunks": [
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-1.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-2.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-3.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-4.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-5.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-6.json",
+                  "objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.reader-chunks/chunk-7.json"
+                ]
+              },
+              "download": {
+                "url": "https://lawquest-content-api.contacticev1.workers.dev/objects/thai-revenue-code/zh-CN/zh-cn-ai-draft-2026-06-07.json.gz?sha=6cab312af8423c3a",
+                "contentType": "application/json",
+                "contentEncoding": "gzip",
+                "sizeBytes": 202873,
+                "uncompressedSizeBytes": 1244550,
+                "sha256": "6cab312af8423c3a23cd501ed4f350510b3a76008a5f92d84a120ff651db7afc",
+                "contentSha256": "444f5bd4379d1e5f10d4a4df52d8291523680872258363ed63a8dc239716b253"
+              }
+            }
+          ]
+        }
+      },
+      "packageCount": 3
+    }
+  ],
+  "warnings": []
+}
